@@ -1,0 +1,70 @@
+.tracker-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h2,
+.card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

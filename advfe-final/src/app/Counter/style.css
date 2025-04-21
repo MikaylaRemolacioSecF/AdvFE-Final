@@ -1,0 +1,53 @@
+.card {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: black;
+  }
+  
+  .card p {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    opacity: 0.9;
+  }
+  
+  .card button:nth-child(4) {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .card button:nth-child(5) {
+    background-color: #2825cb;
+    color: white;
+  }
+  
+  .card button:nth-child(6) {
+    background-color: #ff0000;
+    color: white;
+  }
+  
